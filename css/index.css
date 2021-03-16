@@ -1,17 +1,11 @@
-img{
-
+header img{
   max-width:200px;
+}
   
-  }
-  
-  .nav{
-  
+.nav{
   float:right;
+}
   
-  }
-  
-  .nav li{
-  
+.nav li{
   padding:30px;
-  
-  }
+}
