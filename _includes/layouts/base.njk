@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+      <a href="{{ '/' | url }}"><img src="/img/pexels-rrinna-3265298.jpg" /></a>
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
@@ -28,7 +28,7 @@
     </main>
 
     <footer></footer>
-
+    <script src="{{ '/js/bootstrap.min.js' | url }}"></script>
     <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>
